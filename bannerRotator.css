@@ -1,0 +1,13 @@
+#rotator{width: 623px; position: relative; z-index: 1;}
+#rotator UL.descriptions{float:right; width:188px; padding: 0; margin:0; }
+#rotator UL.descriptions LI{float:left; width: 180px; padding: 0 0 0 8px; background: none}
+#rotator .content{float:left; width:100%; overflow: hidden;background: transparent url(images/description-bg.png) repeat scroll 0 0;}
+#rotator .opened .content{border-bottom: none;}
+#rotator .arrow{width: 8px; height:17px; background: transparent url(images/arrow.png) no-repeat scroll 0 0;}
+#rotator .opening, #rotator .opened, #rotator .shrinking{position: fixed; !important;}
+#rotator .opening.description-1 .arrow,
+#rotator .opened.description-1 .arrow,
+#rotator .shrinking.description-1 .arrow{top:50% !important; right:180px !important; margin-top: -8px;}
+#rotator .opening.description-2 .arrow,
+#rotator .opened.description-2 .arrow,
+#rotator .shrinking.description-2 .arrow{top: auto !important; bottom:26px !important;}
